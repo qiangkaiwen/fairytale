@@ -1,0 +1,24 @@
+{
+  "presets": [["env"], "react", "stage-2"],
+  "env": {
+    "client": {
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-runtime",
+        "transform-class-properties",
+        "transform-async-to-generator",
+        "transform-regenerator"
+      ]
+    },
+    "server": {
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-runtime",
+        "transform-class-properties",
+        "transform-async-to-generator",
+        "transform-regenerator",
+        "css-modules-transform"
+      ]
+    }
+  }
+}
